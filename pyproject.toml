@@ -1,0 +1,23 @@
+[project]
+name = "sqlite-insights-mcp"
+version = "1.0.0"
+description = "Read-only MCP server that lets Claude answer business questions from a SQLite database."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Thierry \"Zack\" L." }]
+requires-python = ">=3.10"
+dependencies = ["mcp>=2.3,<3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "anyio>=4"]
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["db", "seed", "server"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
