@@ -45,7 +45,7 @@ On top of that:
 Requires Python 3.10+.
 
 ```bash
-git clone <this repo> sqlite-insights-mcp
+git clone https://github.com/imkurow/sqlite-insights-mcp.git
 cd sqlite-insights-mcp
 python -m venv .venv
 .venv\Scripts\activate          # macOS/Linux: source .venv/bin/activate
