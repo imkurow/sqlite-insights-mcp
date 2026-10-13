@@ -8,9 +8,9 @@ Ask Claude business questions in plain English and get answers straight from you
 
 Claude explores the schema, writes the SQL, runs it through this server and explains the result. Your data stays read-only the whole time.
 
-<!-- Screenshot placeholder: save a frame from the Loom demo as docs/demo.png, then uncomment:
-![Demo: Claude answering "top 5 customers by revenue last quarter"](docs/demo.png)
--->
+![Demo: Claude answers "top 5 customers by revenue last quarter", then is refused when it tries to delete data](docs/demo.gif)
+
+*The demo replays a real Claude Code session with this server: the tool calls, SQL, results and error message were captured from the live server against the sample database. [MP4 version](docs/demo.mp4).*
 
 ## What it does
 
